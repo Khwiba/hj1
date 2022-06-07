@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width, initial-scale=1.0, maximum-scale=1.0" /> 
+    <title>ABOUT:ENGINE</title>
+    <link rel="shortcut icon" href="/React-PortFolio/favicon.ico">
+	<style type="text/css">
+        div{font: normal 24px verdana;}
+        
+        .blurText{
+            text-shadow: 3px 3px 5px skyblue;
+        }
+    </style>
+    <script>
+
+function hj(){
+  document.write("201801739 강휘재");
+}
+hj();
+</script>
+</head>
+<body style="background-color:#E5EBF7">
+<div id="skipNav"  class="blurText">
+    <a href="#contents">Unreal Engine 5</a>
+</div>
+<hr class="hidden" />
+
+<div id="wrap">
+	<div id="header">
+		<h1 id="logo"><img src="https://blog.kakaocdn.net/dn/bGYi8C/btqTrRB3tTD/Xe866AaqSekefj2n83j2g1/img.png" width="200" height="39" alt="Unreal Engine 5" /></h1>
+		<h2 class="noVisible">메인메뉴</h2>
+		<ul id="menu">
+			<li><a href="hj_main.html">HOME</a></li>
+			<li class="current"><a href="hj_about engine.html">ABOUT ENGINE</a></li>
+		</ul>
+	</div>
+<hr class="hidden" />
+<script>
+function change() {
+    var spanArray = document.getElementsByTagName("span"); // 4개
+    for(var i=0; i<spanArray.length; i++) {
+        var span = spanArray[i];
+        span.style.color = "orchid";
+        span.style.fontSize = "20px";
+    }
+}
+
+</script>
+	<div id="contents">
+		<h1>ABOUT ENGINE
+  <button onclick="change()">누르세요</button>
+		</h1>
+		<hr>
+		<div class="onethird">
+			<h2>1. 언리얼 엔진</h2>
+			<p>미국의 에픽게임즈에서 제작한 3D 게임 엔진</p>
+		</div>
+
+		<div class="onethird">
+			<h2>2. 장점</h2>
+			<p><b>1.</b> <span>높은</span> 품질의 게임을 만들 수 있다<br>
+			   <b>2.</b> 블루프린트로 <span>간단하게</span> 프로그래밍할 수 있다<br>
+			   <b>3.</b> <span>멀티 플랫폼을</span> 지원한다
+			</p>
+        </div>
+        
+		<div class="onethird  last">
+			<h2>3. 활용 게임</h2>
+			<p><b>1.</b> 로스트아크<br>
+			   <b>2.</b> 배틀그라운드<br>
+			</p>
+		</div>
+	</div>
+	<canvas id="myCanvas"
+		style="background-color: aliceblue;"
+	width="500" height="300"> 
+</canvas>
+<script>
+       
+        const canvas = document.getElementById('myCanvas');
+
+     
+        const ctx = canvas.getContext("2d");
+
+        
+        ctx.fillText("Unreal Engine", 10, 10);
+
+    
+        ctx.fillText("Unreal Engine", 10, 30, 50);
+        
+  
+        ctx.font = "italic bold 20px Arial, sans-serif";
+        ctx.fillText("Unreal Engine", 10, 60);
+
+         ctx.fillStyle = 'blue';
+        ctx.fillText("Unreal Engine", 10, 90);
+
+        
+        ctx.strokeStyle = 'red';
+        ctx.strokeText("Unreal Engine", 10, 120);
+
+       
+        ctx.fillText("6. 캔버스에 텍스트를 씁니다.", 10, 150);
+        ctx.strokeText("Unreal Engine", 10, 150);
+
+        ctx.textAlign = "center";
+        ctx.fillText("7. Unreal Engine", 200, 180);
+
+</script>
+
+<hr  class="hidden" style="visibility: hidden;" />
+
+<address id="footer">
+        <a href="https://www.unrealengine.com/ko//"><i></i><div> 홈페이지 바로가기 </div></a>
+	</address>
+		    <script>
+	    	let today = new Date();
+        document.write("오늘 날짜 : " + today.toLocaleDateString() + "<br>");
+        document.write("현재 시간 : " + today.toLocaleString());
+</script>
+
+</div>
+</body>
+
+</html>
